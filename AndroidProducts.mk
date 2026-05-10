@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_shamrock.mk
+    $(LOCAL_DIR)/aosp_shamrock.mk

@@ -291,5 +291,8 @@ firmware_directories      /vendor/firmware_mnt/image/
 # allow the sensors daemon to perform this as non-root
 /dev/sensors              0660   root       system
 
-# dt2w
-/sys/android_touch/doubletap2wake     wake_gesture     0644    system  system
+/sys/module/cpu_boost/parameters/input_boost_ms        0664   system system
+/sys/module/cpu_boost/parameters/input_boost_freq      0664   system system
+/sys/module/cpu_boost/parameters/sched_boost_on_input  0664   system system
+/sys/class/kgsl/kgsl-3d0/min_pwrlevel                  0664   system system
+/proc/sys/kernel/sched_boost                           0664   system system

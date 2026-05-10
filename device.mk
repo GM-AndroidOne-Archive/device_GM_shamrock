@@ -327,12 +327,13 @@ PRODUCT_PACKAGES += \
     fstab.qcom \
     init.qcom.rc \
     init.target.rc \
+    init.zram.rc \
     init.qcom.usb.rc \
     ueventd.qcom.rc
 
 PRODUCT_PACKAGES += \
-    init.qcom.post_boot.sh \
-    init.qcom.sh
+    init.qcom.sh \
+    init.qcom.post_boot.sh
 
 # Offline charger
 PRODUCT_COPY_FILES += \

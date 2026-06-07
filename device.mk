@@ -385,7 +385,9 @@ PRODUCT_PACKAGES += \
 
 # IMS Shim
 PRODUCT_PACKAGES += \
-    libbase_shim
+    libbase_shim \
+    libshim_buffer_imsvt \
+    libshim_camera
 
 # Wifi
 PRODUCT_PACKAGES += \

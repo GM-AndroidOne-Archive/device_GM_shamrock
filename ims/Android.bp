@@ -4,3 +4,10 @@ cc_library {
     shared_libs: ["libbase"],
     vendor: true
 }
+
+cc_library {
+    name: "libshim_buffer_imsvt",
+    srcs: ["buffer_ims.cpp"],
+    shared_libs: ["libbase"],
+    vendor: false
+}

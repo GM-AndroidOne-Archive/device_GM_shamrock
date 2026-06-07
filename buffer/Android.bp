@@ -1,0 +1,7 @@
+cc_library {
+    name: "libshim_camera",
+    srcs: ["buffer.cpp"],
+    shared_libs: ["libbase"],
+    vendor: true
+}
+

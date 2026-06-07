@@ -383,7 +383,7 @@ PRODUCT_PACKAGES += \
     ims-ext-common \
     ims_ext_common.xml
 
-# IMS Shim
+# Shims
 PRODUCT_PACKAGES += \
     libbase_shim \
     libshim_buffer_imsvt \

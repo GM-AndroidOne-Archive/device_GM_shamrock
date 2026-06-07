@@ -46,7 +46,7 @@ PRODUCT_MODEL := GM 5 Plus
 PRODUCT_GMS_CLIENTID_BASE := android-gm
 TARGET_VENDOR := GM
 TARGET_VENDOR_PRODUCT_NAME := shamrock
-PRODUCT_BUILD_PROP_OVERRIDES += PRIVATE_BUILD_DESC="shamrock-user 8.0.0 OSR18O 572 release-keys"
+PRODUCT_BUILD_PROP_OVERRIDES += PRIVATE_BUILD_DESC="mata-user 8.1.0 OPM1.180104.092 224 release-keys"
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
-BUILD_FINGERPRINT := gm/shamrock/shamrock:8.0.0/OSR18O/572:user/test-keys
+BUILD_FINGERPRINT := essential/mata/mata:8.1.0/OPM1.180104.092/224:user/release-keys

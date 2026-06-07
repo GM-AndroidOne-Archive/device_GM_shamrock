@@ -27,7 +27,7 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 ## Android One Experience required flags
 # if your build is ready to release:
-#CUSTOM_BUILD_TYPE := release
+CUSTOM_BUILD_TYPE := release
 PRODUCT_CUSTOM_MODEL := GM5P
 TARGET_GAPPS_ARCH=arm64
 

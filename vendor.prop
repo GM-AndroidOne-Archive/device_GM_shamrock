@@ -49,15 +49,6 @@ persist.audio.calfile4=/vendor/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb
 persist.audio.calfile5=/vendor/etc/acdbdata/MTP/MTP_Headset_cal.acdb
 persist.audio.calfile6=/vendor/etc/acdbdata/MTP/MTP_Speaker_cal.acdb
 
-# Enabling ADB
-ro.secure=0
-ro.adb.secure=0
-persist.service.adb.enable=1
-persist.service.debuggable=1
-persist.sys.usb.config=mtp,adb
-sys.usb.configfs=0
-
-
 # Dalvik Heap
 dalvik.vm.heapstartsize=8m
 dalvik.vm.heapgrowthlimit=192m
